@@ -35,17 +35,17 @@
 This is a simple image classification Flask app trained on the top of Flask API. The trained model (`app/model/model.h5`) takes the Inputs from user ,  as an input and predict the First five innings score from __BATTING TEAM, BOWLING TEAM, OVERS, RUNS, WICKETS, RUN IN PREVIOUS FIVE OVERS, OVERS IN PREVIOUS FIVE OVERS__ denomination.
 
 ## Motivation
-What could be a perfect way to utilize unfortunate lockdown period? Like most of you, I spend my time in cooking, Netflix, coding, Learning and reading some latest research papers on weekends. The idea of classifying Score Prediction struck to me when I was browsing through some research papers. I couldn't find any relevant research paper (and of course dataset!) associated with it. And that led me to collect the images of Indian curreERSncy to train a deep learning model using [this](https://github.com/hardikvasa/google-images-download) amazing tool.
+What could be a perfect way to utilize unfortunate lockdown period? Like most of you, I spend my time in cooking, Netflix, coding, Learning and reading some latest research papers on weekends. The idea of classifying Score Prediction struck to me when I was browsing through some research papers. I couldn't find any relevant research paper (and of course dataset!) associated with it. And that led me to train a deep learning model.
 
 ## Technical Aspect
 This project is divided into two part:
-1. Training a deep learning model using Keras. (_Not covered in this repo. I'll update the link here once I make it public._)
+1. Training a deep learning model. (_Not covered in this repo. I'll update the link here once I make it public._)
 2. Building and hosting a Flask web app on Heroku.
-    - A user can choose image from a device or capture it using a pre-built camera.
+    - A user can choose dropdowwn using a pre-built data examples.
     - Used __Amazon S3 Bucket__ to store the uploaded image and predictions.
     - Used __CSRF Token__ to protect against CSRF attacks.
     - Used __Sentry__ to catch the exception on the back-end.
-    - After uploading the image, the predictions are displayed on a __Bar Chart__.
+    - After uploading the data, the predictions are displayed.
 
 ## Installation
 The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
@@ -84,7 +84,7 @@ gunicorn wsgi:app
 ```
 
 ## Deployement on Heroku
-Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ section. [[Reference](https://devcenter.heroku.com/articles/config-vars)]
+Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ section. [[Reference](https://dashboard.heroku.com/apps/scoreiplinnings/deploy/github)]
 
 ![](https://i.imgur.com/TmSNhYG.png)
 
@@ -92,22 +92,29 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 ## Directory Tree 
 ```
-├── app 
-│   ├── __init__.py
-│   ├── main.py
-│   ├── model
-│   ├── static
-│   └── templates
-├── config
-│   ├── __init__.py
-├── processing
-│   ├── __init__.py
-├── requirements.txt
-├── runtime.txt
-├── LICENSE
+├── Readme resources 
+│   └── ipl-first-innings-score-web-app.gif
+├── Static
+│   ├── csk.png
+│   ├── dc.png
+│   ├── ipl_favoutite.icon
+│   ├── kkr.jpg
+│   ├── kxip.png
+│   ├── mi.jpg
+│   ├── rcb.jpg
+│   ├── rr.jpg
+│   ├── srh.jpg
+│   └── style.css
+├── Templates
+│   ├── index.html
+│   └── result.html
+├── First Innings Score Prediction - IPL.py
 ├── Procfile
 ├── README.md
-└── wsgi.py
+├── app.py
+├── first-innings-score-lr-model.pkl
+├── ipl.csv
+└── requirements.txt
 ```
 
 ## To Do
