@@ -11,4 +11,4 @@ Link: https://scoreiplinnings.herokuapp.com/
 
 • A glimpse of the web app:
 
- ![GIF](<div style="width:100%;height:0;padding-bottom:46%;position:relative;"><iframe src="https://giphy.com/embed/U16PzBcFZwGKitvHfG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/U16PzBcFZwGKitvHfG">via GIPHY</a></p>)
+ ![GIF](readme_resources/ipl-first-innings-score-web-app.gif)
