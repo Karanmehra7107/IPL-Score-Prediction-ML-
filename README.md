@@ -83,12 +83,6 @@ To run the app in a local machine, shoot this command in the project directory:
 gunicorn wsgi:app
 ```
 
-## Deployement on Heroku
-Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ section. [[Reference](https://dashboard.heroku.com/apps/scoreiplinnings/deploy/github)]
-
-![](https://i.imgur.com/TmSNhYG.png)
-
-Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
 ## Directory Tree 
 ```
