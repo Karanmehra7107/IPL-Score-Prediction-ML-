@@ -129,9 +129,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 [<img target="_blank" src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width=270>](https://www.sentry.io/) [<img target="_blank" src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png" width=100>](https://jquery.com/)
 
 ## Team
-[![Karan Mehra](https://avatars1.githubusercontent.com/u/16516296?v=3&s=144)](https://karanmehra7107.github.io/My-Portfolio/index.html) |
--|
-[Karan Mehra](https://karanmehra7107.github.io/My-Portfolio/index.html) |)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Fs4h7fZ/Pics-Art-05-30-07-58-11.jpg" alt="PicsArt_05-30-07.58.11" border="0">
+
+[Karan Mehra](https://karanmehra7107.github.io/My-Portfolio/index.html)
 
 ## License
 [![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
